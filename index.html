@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Peppa's Pizza</h1>
+<img src="pizza-3007395_1280.jpg" alt="img">
+    <h2>Order your Pizza</h2>
+    <Form>
+        
+    <fieldset>
+            <legend>Number of Pizzas</legend>
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1"  value="1">
+    </fieldset>
+    <fieldset>
+        <legend>Pizza Size</legend>
+        <label for="size">Number of Slices:</label>
+        <select id="size" name="size">
+          <option value="4_slices">4 Slices</option>
+          <option value="6_slices">6 Slices</option>
+          <option value="8_slices">8 Slices</option>
+          <option value="12_slices">12 Slices</option>
+        </select>
+      </fieldset>
+    </fieldset>
+    <fieldset>
+        <legend>Pizza Shape</legend>
+        <p>Select Shape:</p>
+        <input type="radio" id="square" name="shape" value="square">
+        <label for="square">Square</label><br>
+        <input type="radio" id="round" name="shape" value="round">
+        <label for="round">Round</label>
+    </fieldset>
+    <fieldset>
+        <legend>Pizza Toppings</legend>
+        <p>Select Toppings:</p>
+        <input type="checkbox" id="sausage" name="topping" value="sausage">
+        <label for="sausage">Sausage</label><br>
+        <input type="checkbox" id="bacon" name="topping" value="bacon">
+        <label for="bacon">Bacon</label><br>
+        <input type="checkbox" id="extra_cheese" name="topping" value="extra_cheese">
+        <label for="extra_cheese">Extra Cheese</label><br>
+        <input type="checkbox" id="Mushroom" name="topping" value="Mushroom">
+        <label for="Mushroom">Mushroom</label><br>
+        <input type="checkbox" id="green_peppers" name="topping" value="green_peppers">
+        <label for="green_peppers">green_peppers</label><br>
+        <input type="checkbox" id="Chicken" name="topping" value="Chicken">
+        <label for="Chicken">Chicken</label><br>
+        <input type="checkbox" id="Pepperoni" name="topping" value="Pepperoni">
+        <label for="Pepperoni">Pepperoni</label><br>
+        <input type="checkbox" id="onions" name="topping" value="onions">
+        <label for="onions">Onions</label><br>
+       
+    </fieldset>
+    <fieldset>
+        <legend>Crust Type</legend>
+        <p>Select Crust Type:</p>
+        <input type="radio" id="deep_dish" name="crust" value="deep_dish">
+        <label for="deep_dish">Deep Dish</label><br>
+        <input type="radio" id="thin_crust" name="crust" value="thin_crust">
+        <label for="thin_crust">Thin Crust</label><br>
+        <input type="radio" id="stuffed_crust" name="crust" value="stuffed_crust">
+        <label for="stuffed_crust">Stuffed Crust</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Dining Option</legend>
+        <p>Select Dining Option:</p>
+        <input type="radio" id="take_out" name="dining" value="take_out">
+        <label for="take_out">Take Out</label><br>
+        <input type="radio" id="delivery" name="dining" value="delivery">
+        <label for="delivery">Delivery</label><br>
+        <input type="radio" id="eat_in" name="dining" value="eat_in">
+        <label for="eat_in">Eat In</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Special Instructions</legend>
+        <label for="instructions">Any Special instructions?</label><br>
+        <textarea id="instructions" name="instructions" rows="4" cols="50"></textarea>
+    </fieldset>
+    <input type="submit" value="Place Order">
+    <input type="reset" value="Clear Form">
+
+    </Form>
+    
+</body>
+</html>
